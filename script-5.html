@@ -1,18 +1,4 @@
-<!doctype html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Script 5 </title>
-</head>
-
-<body>
-
-
-    <div id="imran"></div>
-
-    <div id="dhaka"></div>
 
 
     <script>
@@ -146,7 +132,7 @@ else{
 let amar_number = 75;
 let bandur_bandur = 75;
 
-if( amar_number == bandur_bandur){
+if( amar_number > bandur_bandur){
     console.log('')
 
 }else if( amar_number == bandur_bandur ){
@@ -155,15 +141,19 @@ console.log('amar bandu & amar number same')
 
 }
 
-// 4 tui 100 taka jamanor target kors akhon porjontoh 95 taka jamaisis akta program likh chek kor tui target a powsasis ki na tar chaite beshi jomai 
+// 4. tui 100 taka jamanor target kors akhon porjontoh 95 taka jamaisis akta program likh chek kor tui target a powsasis ki na tar chaite beshi jomai 
 // sis ki na.
 
 let jamanor_target = 100;
 let akhon_porjontoh_jamaisi = 95;
-if(jamanor_target == akhon_porjontoh_jamaisi ){
-    console.log(true);
-}else{
-    console.log(false);
+
+if(jamanor_target > akhon_porjontoh_jamaisi ){
+    console.log(powsaisi);
+}else if(jamanor_target <= akhon_porjontoh_jamaisi){
+    console.log(false)
+}
+else{
+    console.log(powsaini);
 }
 
 //5.akta program  likhe dekh 10or 7 ki saman  (defferent)
@@ -188,8 +178,12 @@ else{
     console.log('kom')
 }
 
+
+let ami = 10;
+let tui = 8;
+if( ami > tui ){
+    console.log(true)
+}
+
     </script>
 
-</body>
-
-</html>
