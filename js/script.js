@@ -53,15 +53,15 @@ console.log(number / number2)
 
 // //6. 20 ki 15 er chaite kom ba saman ki na set kor
 
-let number_one  = 20;
-let number_two  = 15;
+// let number_one  = 20;
+// let number_two  = 15;
 
-if( number_one > number_two ){
-    document.getElementById("imran").innerHTML = number_one + ' baro ' + number_two + ' theke ' ;
-}
-else{
-    document.getElementById("imran").innerHTML = number_one + ' choto ' + number_two + ' theke ' ;
-}
+// if( number_one > number_two ){
+//     document.getElementById("imran").innerHTML = number_one + ' baro ' + number_two + ' theke ' ;
+// }
+// else{
+//     document.getElementById("imran").innerHTML = number_one + ' choto ' + number_two + ' theke ' ;
+// }
 
 
     </script>
